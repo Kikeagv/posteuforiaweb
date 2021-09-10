@@ -24,6 +24,7 @@ main .hero{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .title-divider{
@@ -45,11 +46,20 @@ main .hero{
     font-size: 2.5rem;
 }
 
+.disc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container {
     display: grid;
+    width: 100vw;
+    justify-items: center;
+    margin-bottom: 10px ;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
+    gap: 5px 5px;
     grid-auto-flow: row;
     grid-template-areas:
       "e1 e2"
@@ -63,4 +73,29 @@ main .hero{
 .e3 { grid-area: e3; }
   
 .e4 { grid-area: e4; }
-  
+
+.e{
+    padding: 5px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.e picture img{
+    width: 40vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+.mas{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    padding: 5px;
+    background-color: indigo;
+    border-radius: 20px;
+}
