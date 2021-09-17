@@ -1,0 +1,17 @@
+@media (min-width:500px){
+
+.new__pic img{
+    height: 40vw;
+    width: 40vw;
+}
+
+.disc__element{
+    width: 30vw;
+    height: 30vw;
+}
+
+.blog__element img{
+    width: 15vw;
+}
+
+}
