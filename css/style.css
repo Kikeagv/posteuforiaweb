@@ -54,7 +54,11 @@ main .hero{
 }
 
 .d1{
-    background-image: url('/img/test__album.jpg');
+    background-image: url('/img/cuartodehotel.png');
+}
+
+.d2{
+    background-image: url('/img/balada.png');
 }
 
 .disc__info{
@@ -84,6 +88,7 @@ main .hero{
     font-size: 2.5rem;
     color: black;
     height: 100%;
+    text-align: center;
 }
 
 .button{
