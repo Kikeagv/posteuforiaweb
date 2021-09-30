@@ -1,0 +1,21 @@
+@media(min-width:800px){
+
+.new__pic img{
+    height: 20vw;
+    width: 20vw;
+}
+
+.disc__element{
+    width: 20vw;
+    height: 20vw;
+}
+
+.blog__element img{
+    width: 10vw;
+}
+
+.title-divider{
+    padding: 5px;
+}
+
+}
