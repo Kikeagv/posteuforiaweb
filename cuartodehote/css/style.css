@@ -52,7 +52,7 @@ header img{
     display: flex;
     justify-content: center;
     margin-top: 25px;
-    background-color: cadetblue;
+    background: linear-gradient(270deg,#9E2DAD, #E3796D);
     padding-top: 5px;
     padding-bottom: 5px;
     box-shadow: 9px 9px 22px -9px rgba(0,0,0,0.61);

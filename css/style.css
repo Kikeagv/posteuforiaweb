@@ -189,7 +189,7 @@ main .hero{
 
 .social{
     height: auto;
-    background-color: blueviolet;
+    background: linear-gradient(270deg,#ED22C3, #1E5EA0);
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
